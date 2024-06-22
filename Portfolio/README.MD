@@ -1,6 +1,6 @@
 
 
-# [Your Name]'s Portfolio
+# Aman Kumar's Portfolio
 
 ## Overview
 Welcome to my  portfolio! This repository showcases some of my projects and contributions. Each project has its own README file with more specific details.
