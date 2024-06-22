@@ -1,0 +1,127 @@
+/* Reset some default styles */
+body, ul, li, p, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #081421;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Main content styling */
+.main-content {
+    margin-top: 60px; /* Adjust based on header height */
+    padding: 20px;
+}
+
+/* Container class */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card {
+    background-color: #1b7ded;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+}
+
+.card.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #003366;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    .home-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
