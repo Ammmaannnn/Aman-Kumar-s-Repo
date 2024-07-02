@@ -3,7 +3,8 @@ A person named Nahid wants to sell his products online. So he decided to create 
 Welcome to the E-commerce-Website-by-Java-Spring-Boot wiki!
 
 
-##Tech Stack used
+Tech Stack used
+
 Java Spring Boot, Spring Security, Spring Data JPA, PostgreSQL, HTML, CSS, JavaScript, Thymeleaf.
 Tools: Git, GitHub, Maven, Docker.
 
